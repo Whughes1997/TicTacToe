@@ -1,0 +1,63 @@
+body {
+    background-image: url(https://wallpaperaccess.com/full/112906.jpg);
+    background-repeat: no-repeat;
+    color: yellow;
+}
+
+.board {
+    display: block;
+    padding-top: 3em;
+    text-align: center;
+}
+
+.row>div {
+    float: left;
+    height: 100px;
+    width: 100px;
+    cursor: pointer;
+    line-height: 100px;
+    font-size: 75px;
+}
+
+.top {
+    float: left;
+    border-bottom: 1px rgb(233, 8, 8) solid;
+    height: 100px;
+    width: 100px;
+}
+
+.center {
+    float: left;
+    height: 100px;
+    width: 100px;
+}
+
+.bottom {
+    border-top: 1px rgb(119, 124, 72) solid;
+    float: left;
+    height: 100px;
+    width: 100px;
+}
+
+.left {
+    border-right: 1px rgb(50, 82, 211) solid;
+    height: 100px;
+    width: 100px;
+}
+
+.middle {}
+
+.right {
+    border-left: 1px rgb(116, 228, 11) solid;
+    height: 100px;
+    width: 100px;
+}
+
+.row {
+    height: 100px;
+    width: 302px;
+    margin: auto;
+    clear: both;
+}
+
+.box {}
